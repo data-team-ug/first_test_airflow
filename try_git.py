@@ -3,7 +3,7 @@
 import os
 import pandas as pd
 import datetime
-from mzee_connection import *
+#from mzee_connection import *
 
 import datetime as dt
 from datetime import datetime, timedelta
