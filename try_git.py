@@ -176,7 +176,7 @@ def successemail(name):
 # #%%
 # data1.to_excel('/Users/regan.kyeyune/Python_Projects/airflow2_test/dags/excel_files/test.xlsx')
 # #%%
-# data2 = '/Users/regan.kyeyune/Python_Projects/airflow2_test/dags/excel_files/test.xlsx'
+# data2 = '/github/workspace/test.xlsx'
 
 #%%
 
