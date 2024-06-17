@@ -174,7 +174,7 @@ def successemail(name):
 # results = session.execute(Query)
 # data1 = pd.DataFrame(results.fetchall(), columns=results.keys())
 # #%%
-# data1.to_excel('/Users/regan.kyeyune/Python_Projects/airflow2_test/dags/excel_files/test.xlsx')
+# data1.to_excel('/github/workspace/test.xlsx')
 # #%%
 # data2 = '/github/workspace/test.xlsx'
 
