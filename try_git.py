@@ -210,20 +210,20 @@ except Exception as e:
 
 #%%
 #send call list
-try:
-    #create a pandas dataframe
-    for a,b,c in zip(Regions, Rsm_name, Rsm_emails):
-        data1 = data2
-        data3 = data1[data1['region_use']==a]
-        data4 = data3[['customer_id','customer_name','primary_phone_number','affecting_date','affecting_state','nstallment_amount',
-                    'dsitrict','sector','product_type','agent','agent_assigned_region','agent_assigned_district',
-                    'sales_agent_id']]
-        data4.to_excel(f'/Users/regan.kyeyune/Python_Projects/Rwanda Lists/Welcome call list excel/{a} MFP List.xlsx',index=False)
-        att1 = f'/Users/regan.kyeyune/Python_Projects/Rwanda Lists/Welcome call list excel/{a} MFP List.xlsx'
-        successemail(name = b, att = att1)   
-        print(f"MFP List Sent to {b}")
+# try:
+#     #create a pandas dataframe
+#     for a,b,c in zip(Regions, Rsm_name, Rsm_emails):
+#         data1 = data2
+#         data3 = data1[data1['region_use']==a]
+#         data4 = data3[['customer_id','customer_name','primary_phone_number','affecting_date','affecting_state','nstallment_amount',
+#                     'dsitrict','sector','product_type','agent','agent_assigned_region','agent_assigned_district',
+#                     'sales_agent_id']]
+#         data4.to_excel(f'/Users/regan.kyeyune/Python_Projects/Rwanda Lists/Welcome call list excel/{a} MFP List.xlsx',index=False)
+#         att1 = f'/Users/regan.kyeyune/Python_Projects/Rwanda Lists/Welcome call list excel/{a} MFP List.xlsx'
+#         successemail(name = b, att = att1)   
+#         print(f"MFP List Sent to {b}")
 
-except Exception as e:
-    print(e)
-    sendErrorEmail(e)
-# %%
+# except Exception as e:
+#     print(e)
+#     sendErrorEmail(e)
+# # %%
