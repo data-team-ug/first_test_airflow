@@ -3,8 +3,6 @@
 import os
 import pandas as pd
 import datetime
-from requirements import *
-
 import datetime as dt
 from datetime import datetime, timedelta
 from dateutil.relativedelta import relativedelta
